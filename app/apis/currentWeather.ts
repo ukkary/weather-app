@@ -1,6 +1,6 @@
-import { config } from '@/config'
-import { Cities } from '@/types/cities'
-import request from '@/utils/request'
+import { config } from '../config'
+import { Cities } from '../types/cities'
+import request from '../utils/request'
 
 export type CurrentWeatherRequest = {
   city: Cities
